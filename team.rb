@@ -18,22 +18,22 @@ class Team
   end
   
   def show_team_result()
-    p "#{@name}の2020年の成績は#{@win}勝#{@lose}敗#{@draw}分、勝率は#{self.calc_win_rate} です。"
+    puts "#{@name} の2020年の成績は #{@win}勝#{@lose}敗#{@draw}分、勝率は#{self.calc_win_rate}です。"
   end
 end
 
 # インスタンスの生成と、変数への代入
-Team1 = Team.new("Giants", 67, 45, 8)
-Team2 = Team.new("Tigers", 60, 53, 7)
-Team3 = Team.new("Dragons", 60, 55, 5)
-Team4 = Team.new("BayStars", 56, 58, 6)
-Team5 = Team.new("Carp", 52, 56, 12)
-Team6 = Team.new("Swallows", 41, 69, 10)
+team1 = Team.new("Giants", 67, 45, 8)
+team2 = Team.new("Tigers", 60, 53, 7)
+team3 = Team.new("Dragons", 60, 55, 5)
+team4 = Team.new('BayStarsc', 56, 58, 6)
+team5 = Team.new("Carp", 52, 56, 12)
+team6 = Team.new("Swallows", 41, 69, 10)
 
 # インスタンスの使用
-Team1.show_team_result()
-Team2.show_team_result()
-Team3.show_team_result()
-Team4.show_team_result()
-Team5.show_team_result()
-Team6.show_team_result()
+team1.show_team_result()
+team2.show_team_result()
+team3.show_team_result()
+team4.show_team_result()
+team5.show_team_result()
+team6.show_team_result()
